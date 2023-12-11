@@ -5,8 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("file:///C:/Users/Ever.Galarza/Documents/GitHub/The-End/image%20(2)4.png");
-  /* Use file:/// for local file paths and replace spaces with %20 in the filename */
+  background-image: url("C:\Users\Ever.Galarza\Documents\GitHub\The-End\images\bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
