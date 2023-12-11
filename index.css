@@ -5,11 +5,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("images/image\ \(1\).png") center/cover fixed no-repeat;
+  background-image: url("file:///C:/Users/Ever.Galarza/Documents/GitHub/The-End/image%20(2)4.png");
+  /* Use file:/// for local file paths and replace spaces with %20 in the filename */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   margin: 0;
   font-family: 'Poppins', sans-serif;
   animation: animate-2 5s linear infinite;
 }
+
 
 
 @keyframes animate-2 {
@@ -153,4 +159,46 @@ button {
 
 .signUp-link p a:hover {
   text-decoration: underline;
+}
+
+/* Your existing CSS styles */
+
+/* Add responsive styles */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none; /* Remove the background image on smaller screens */
+  }
+
+  .wrapper {
+    width: 90%; /* Adjust the width for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    box-shadow: none; /* Remove box shadow on smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .form-wrapper {
+    flex-direction: column; /* Stack form elements vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .input-group {
+    margin: 15px 0; /* Adjust margin for smaller screens */
+  }
+
+  .input-group input {
+    width: 100%; /* Full width for input fields on smaller screens */
+  }
+
+  .wrapper.active .form-wrapper.sign-in,
+  .wrapper.active .form-wrapper.sign-up {
+    transform: translateY(0); /* Adjust form positions for smaller screens */
+  }
+  
+  h2 {
+    font-size: 24px; /* Adjust heading font size for smaller screens */
+  }
+
+  button {
+    width: 100%; /* Full width for buttons on smaller screens */
+  }
 }
