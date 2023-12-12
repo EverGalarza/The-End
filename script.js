@@ -55,6 +55,6 @@ function registerUser(username, password) {
 
 function redirectToHome() {
     // Redirect to home.html
-    window.location.href = 'C:\Users\Ever.Galarza\Documents\GitHub\The-End\Page\home.html';
+    window.location.href = 'home.html';
 }
 
