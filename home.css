@@ -144,3 +144,72 @@ a.button {
     opacity: 1;
     animation: animate 8s linear infinite;
    }
+
+   @media (max-width: 576px) {
+    .banner video {
+        display: none;
+    }
+
+    .banner {
+        background-color: black;
+        color: limegreen;
+    }
+
+    .content {
+        position: relative;
+        text-align: center;
+        top: unset;
+        transform: unset;
+        margin-top: 50px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+
+    a.button {
+        position: static;
+        display: block;
+        margin-top: 20px;
+        transform: none;
+    }
+
+    .navbar {
+        background: black;
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: none;
+        list-style: none;
+        padding: 0;
+    }
+
+    .navbar.active ul {
+        display: block;
+    }
+
+    .navbar img {
+        display: none; /* Hide the logo */
+    }
+
+    .navbar i.bi-list {
+        display: block;
+        color: limegreen; /* Set icon color to neon green */
+        font-size: 24px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 10px 0;
+        color: limegreen;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
