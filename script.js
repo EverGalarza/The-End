@@ -55,6 +55,6 @@ function registerUser(username, password) {
 
 function redirectToHome() {
     // Redirect to home.html
-    window.location.href = 'home.html';
+    window.location.href = 'Page/home.html';
 }
 
