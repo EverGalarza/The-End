@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url("C:\Users\Ever.Galarza\Documents\GitHub\The-End\images\bg.jpg");
+  background: black;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
